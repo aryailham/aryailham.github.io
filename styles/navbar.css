@@ -7,7 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-li, a, button{
+li, a, button, h3, p{
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
