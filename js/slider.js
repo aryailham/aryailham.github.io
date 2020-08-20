@@ -6,6 +6,7 @@ $(document).ready(function() {
         auto: false,
         infiniteLoop: false,
         hideControlOnEnd: true,
-        captions: true
+        captions: true,
+        slideWidth: 960
     });
 });
