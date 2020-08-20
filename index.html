@@ -8,8 +8,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/loader.css">
-    <script src="js/loader.js"></script>
     <link rel="stylesheet" href="styles/landingpage.css">
+    <script src="js/loader.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -25,7 +27,7 @@
                     <li><a class="active" href="#about-me">About Me</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#organization">Organizational Experience</a></li>
-                    <li><a href="#seminar">Seminar</a></li>
+                    <li><a href="#project">Project</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -33,24 +35,24 @@
     </div>
 
     <div id="jumbotron" class="main-section">
-        <h1>Hello, My Name is</h1>
-        <h3>Arya Moehammad Ilham</h3>
+        <h1 data-aos="fade-up">Hello, My Name is</h1>
+        <h3 data-aos="fade-up">Arya Moehammad Ilham</h3>
     </div>
 
-    <div id="about-me" class="main-section">
+    <div data-aos="fade-up" id="about-me" class="main-section">
         <img src="img/index.jpg" class="profile-pic">
         <h3>About Me</h3>
         <p>Hi, i am <b>Arya Moehammad Ilham</b>, i am from Indonesia, and currently live in Jakarta.</p>
         <p>
             i am a Computer Science student from Bina Nusantara University. I chose Computer Science major because I love technology and interested in it. I love it because Computer Science involves a lot of problem solving, from coding to debugging. I found it was
-            a stressful yet fun experience to do. I interested in software engineering, especially application engineering.
+            a stressful yet fun experience to do. I interested in software engineering, especially application software.
         </p>
     </div>
 
     <div id="skills" class="main-section">
-        <h3>Skills</h3>
-        <p>Here is list of language and framework that i'm currently learn.</p>
-        <div>
+        <h3 data-aos="fade-up">Skills</h3>
+        <p data-aos="fade-up">Here is list of language and framework that i'm currently learn.</p>
+        <div data-aos="fade-up">
             <ul aria-label="Script and Programming Language">
                 <li>C</li>
                 <li>C#</li>
@@ -64,22 +66,34 @@
                 <li>Laravel</li>
                 <li>.NET CORE</li>
             </ul>
+            <ul aria-label="Database">
+                <li>PHPMyAdmin</li>
+                <li>MongoDB</li>
+                <li>SQL Server</li>
+            </ul>
         </div>
     </div>
 
     <div id="organization" class="main-section">
-        <h3>Organization and Volunteer Experience</h3>
+        <h3 data-aos="fade-up">Organization and Volunteer Experience</h3>
+        <div data-aos="fade-up">
+            <ul>
+                <li>E2ECommerce Indonesia</li>
+                <li>Asian English Olympics (AEO) 2020 by Bina Nusantara English Club</li>
+            </ul>
+        </div>
     </div>
 
-    <div id="seminar" class="main-section">
-        <h3>Seminar</h3>
+    <div id="project" class="main-section">
+        <h3 data-aos="fade-up">Project</h3>
     </div>
 
-    <div id="contact" class="main-section">
+    <div id="contact" class="main-section" data-aos="fade-up">
         <h3>Please Contact Me at</h3>
         <p>aryailham05@gmail.com</p>
         <a href="https://www.linkedin.com/in/arya-moehammad-ilham-428380182/" target="_blank"><img src="img/linkedin.png" alt="linkedin" class="icon"></a>
     </div>
+    <script src="js/revealAnimation.js"></script>
 </body>
 
 </html>
