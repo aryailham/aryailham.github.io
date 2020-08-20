@@ -5,6 +5,7 @@ $(document).ready(function() {
         responsive: true,
         auto: false,
         infiniteLoop: false,
-        hideControlOnEnd: true
+        hideControlOnEnd: true,
+        captions: true
     });
 });

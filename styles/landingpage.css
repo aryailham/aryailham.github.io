@@ -75,3 +75,28 @@ li {
     width: 32px;
     height: 32px;
 }
+
+.slider img {
+    height: 540px;
+    width: 960px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 40%; */
+}
+
+
+/* .slider {
+    padding: 10% 0;
+} */
+
+.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    padding: 0% 10%;
+    z-index: 1;
+    background: #24252A;
+    /* opacity: 1; */
+}
