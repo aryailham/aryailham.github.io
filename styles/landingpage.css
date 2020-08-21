@@ -10,6 +10,13 @@ h2 {
     font-family: "Montserrat", sans-serif;
 }
 
+h4 {
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
 body {
     margin: 0;
     background-color: #24252A;
@@ -94,15 +101,13 @@ li {
     -webkit-box-shadow: none;
     box-shadow: none;
     border: 0;
+    margin: 0;
     padding: 0% 10%;
     z-index: 1;
     background: #24252A;
     align-self: center;
-    /* opacity: 1; */
 }
 
-
-/* 
-.project-section {
-    padding: 0 10%;
-} */
+.project-description {
+    float: left !important;
+}
