@@ -1,113 +1,113 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 h2 {
-    font-weight: 500;
-    /* font-size: 16px; */
-    color: #edf0f1;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  /* font-size: 16px; */
+  color: #edf0f1;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 h4 {
-    font-weight: 500;
-    color: #edf0f1;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-    margin: 0;
-    background-color: #24252A;
+  margin: 0;
+  background-color: #24252a;
 }
 
 .main-section {
-    min-height: 100vh;
-    /* padding: 8% 10%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
+  min-height: 100vh;
+  /* padding: 8% 10%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .profile-pic {
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-section h1 {
-    font-weight: 500;
-    font-size: 80px;
-    color: #edf0f1;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 80px;
+  color: #edf0f1;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .main-section h3 {
-    font-weight: 500;
-    font-size: 50px;
-    color: #edf0f1;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #edf0f1;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .main-section p {
-    padding: 0 20%;
+  padding: 0 20%;
 }
 
 #skills div {
-    display: flex;
-    justify-content: center;
-    padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  padding: 0 10%;
 }
 
 ul {
-    margin: 0 50px;
-    display: inline-block;
-    text-align: left;
-    padding: 0;
+  margin: 0 50px;
+  display: inline-block;
+  text-align: left;
+  padding: 0;
 }
 
 li {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .icon {
-    width: 32px;
-    height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 .slider img {
-    height: 540px;
-    width: 960px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 40%; */
+  height: 540px;
+  width: 960px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 40%; */
 }
 
 .slider {
-    padding: 0% 10%;
+  padding: 0% 10%;
 }
 
 .bx-wrapper {
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: 0;
-    margin: 0;
-    padding: 0% 10%;
-    z-index: 1;
-    background: #24252A;
-    align-self: center;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+  margin: 0;
+  padding: 0% 10%;
+  z-index: 1;
+  background: #24252a;
+  align-self: center;
 }
 
 .project-description {
-    float: left !important;
+  float: left !important;
 }
