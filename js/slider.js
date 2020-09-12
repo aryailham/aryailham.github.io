@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".bxslider").bxSlider({
+  $(".slider").bxSlider({
     mode: "horizontal",
     pager: false,
     responsive: true,
