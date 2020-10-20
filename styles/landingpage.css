@@ -124,7 +124,7 @@ li {
   width: 400px;
   height: 350px;
   background-color: #3b3c42;
-  margin: 50px;
+  margin: 0 50px;
   border-radius: 25px;
   overflow: hidden;
   display: flex;
