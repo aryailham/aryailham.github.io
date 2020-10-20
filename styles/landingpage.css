@@ -114,3 +114,26 @@ li {
 .project-description {
   float: left !important;
 }
+
+.linear-content {
+  display: flex;
+  justify-content: center;
+}
+
+.project-card {
+  width: 400px;
+  height: 350px;
+  background-color: #3b3c42;
+  margin: 50px;
+  border-radius: 25px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-card img {
+  height: 80%;
+  width: auto;
+  margin-bottom: 15px;
+}
