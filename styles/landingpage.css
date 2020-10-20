@@ -134,6 +134,6 @@ li {
 
 .project-card img {
   height: 80%;
-  width: 100%;
+  width: auto;
   margin-bottom: 15px;
 }
