@@ -75,6 +75,8 @@ ul {
   display: inline-block;
   text-align: left;
   padding: 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 li {
@@ -122,7 +124,6 @@ li {
 
 .project-card {
   width: 400px;
-  height: 350px;
   background-color: #3b3c42;
   margin: 50px;
   border-radius: 25px;
@@ -133,12 +134,15 @@ li {
 }
 
 .project-card img {
-  height: 80%;
+  height: 300px;
   width: auto;
-  margin-bottom: 15px;
 }
 
 .padding-medium {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.view-more-btn {
+  margin-bottom: 16px;
 }
