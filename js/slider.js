@@ -7,6 +7,6 @@ $(document).ready(function () {
     infiniteLoop: false,
     hideControlOnEnd: true,
     captions: true,
-    slideWidth: 960,
+    slideWidth: 0,
   });
 });
