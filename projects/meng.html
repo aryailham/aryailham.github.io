@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project - Meng</title>
-    <link rel="stylesheet" href="../styles/navbar.css">
-    <link rel="stylesheet" href="../styles/landingpage.css">
-    <link rel="stylesheet" href="../styles/loader.css" />
     <link
       rel="stylesheet"
       href="../node_modules/bxslider/dist/jquery.bxslider.css"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="../node_modules/bxslider/dist/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/landingpage.css">
+    <link rel="stylesheet" href="../styles/loader.css" />
     <script src="../js/slider.js"></script>
     <script src="../js/loader.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -32,39 +32,49 @@
       </nav>
     </header>
   </div>
+  <div id="project" class="main-section padding-medium">
+    <div class="back-to-home-btn">
+      <a href="https://aryailham.github.io"><button>Back to Home</button></a>
+    </div>
+    <h3>MENG: iOS APPLICATION TO HELP CAT OWNERS MONITOR THEIR CAT BEHAVIOR</h3>
+    <div class="slider sliderProject">
+      <div>
+        <img
+          src="../img/meng/calendar.jpg"
+          alt="Calendar Page"
+          title="Calendar Page"
+        />
+      </div>
+      <div>
+        <img
+          src="../img/meng/dashboard.jpg"
+          alt="Dashboard Page"
+          title="Dashboard Page"
+        />
+      </div>
+      <div>
+        <img
+          src="../img/meng/profile.jpg"
+          alt="Cat Profile Page"
+          title="Cat Profile Page"
+        />
+      </div>
+    </div>
+    <div class="project-description">
+      <p>
+          Meng apps is an iOS application created for cat owners. This application is created 
+          to help cat owner to monitor and create record of their cat’s everyday behavior.            
+      </p>
+      <h4><b>Tech stack:</b></h4>
+      <ul>
+        <li>Swift</li>
+        <li>UIKit</li>
+        <li>Core Data</li>
+        <li>MVC design pattern</li>
+      </ul>
+    </div>
 
-      <div id="project" class="main-section padding-medium" data-aos="fade-up">
-        <h3>MENG: iOS APPLICATION TO HELP CAT OWNERS MONITOER THEIR CAT BEHAVIOR</h3>
-        <div class="slider">
-            <div>
-              <img
-                src="../img/werk_android/sign_in.jpg"
-                alt="Sign In"
-                title="Sign In"
-              />
-            </div>
-            <div>
-              <img
-                src="../img/werk_android/sign up.jpg"
-                alt="Sign Up"
-                title="Sign Up"
-              />
-            </div>
-            
-          </div>
-          <div class="project-description">
-            <p>
-                Meng apps is an iOS application created for cat owners. This application is created 
-                to help cat owner to monitor and create record of their cat’s everyday behavior.            
-            </p>
-            <h4><b>Tech stack:</b></h4>
-            <ul>
-              <li>Swift</li>
-              <li>UIKit</li>
-              <li>Core Data</li>
-              <li>MVC design pattern</li>
-            </ul>
-          </div>
-      <script src="../js/revealAnimation.js"></script>
+  </div>
+  <script src="../js/revealAnimation.js"></script>
 </body>
 </html>
